@@ -11,6 +11,8 @@
 		A46D9E882ADBCC82008345F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46D9E872ADBCC82008345F0 /* ContentView.swift */; };
 		A46D9E8A2ADBCC84008345F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46D9E892ADBCC84008345F0 /* Assets.xcassets */; };
 		A46D9E8D2ADBCC84008345F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46D9E8C2ADBCC84008345F0 /* Preview Assets.xcassets */; };
+		A46D9E972ADBCDA2008345F0 /* Glory-VariableFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A46D9E962ADBCDA1008345F0 /* Glory-VariableFont.ttf */; };
+		A46D9E992ADBCDE5008345F0 /* SizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46D9E982ADBCDE5008345F0 /* SizeCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		A46D9E872ADBCC82008345F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A46D9E892ADBCC84008345F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A46D9E8C2ADBCC84008345F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A46D9E952ADBCCE2008345F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A46D9E962ADBCDA1008345F0 /* Glory-VariableFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glory-VariableFont.ttf"; sourceTree = "<group>"; };
+		A46D9E982ADBCDE5008345F0 /* SizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +56,12 @@
 		A46D9E842ADBCC82008345F0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				A46D9E952ADBCCE2008345F0 /* Info.plist */,
 				A46D9E852ADBCC82008345F0 /* FontsApp.swift */,
 				A46D9E872ADBCC82008345F0 /* ContentView.swift */,
+				A46D9E982ADBCDE5008345F0 /* SizeCalculator.swift */,
 				A46D9E892ADBCC84008345F0 /* Assets.xcassets */,
+				A46D9E962ADBCDA1008345F0 /* Glory-VariableFont.ttf */,
 				A46D9E8B2ADBCC84008345F0 /* Preview Content */,
 			);
 			path = Fonts;
@@ -125,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46D9E972ADBCDA2008345F0 /* Glory-VariableFont.ttf in Resources */,
 				A46D9E8D2ADBCC84008345F0 /* Preview Assets.xcassets in Resources */,
 				A46D9E8A2ADBCC84008345F0 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46D9E882ADBCC82008345F0 /* ContentView.swift in Sources */,
+				A46D9E992ADBCDE5008345F0 /* SizeCalculator.swift in Sources */,
 				A46D9E862ADBCC82008345F0 /* FontsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +285,7 @@
 				DEVELOPMENT_TEAM = A53F8H373H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fonts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +315,7 @@
 				DEVELOPMENT_TEAM = A53F8H373H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fonts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
